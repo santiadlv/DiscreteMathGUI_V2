@@ -51,6 +51,7 @@
             this.bttnCheck.Text = "Checar ejercicios";
             this.bttnCheck.UseVisualStyleBackColor = true;
             this.bttnCheck.Visible = false;
+            this.bttnCheck.Click += new System.EventHandler(this.bttnCheck_Click);
             // 
             // bttnNextQ
             // 
@@ -60,6 +61,7 @@
             this.bttnNextQ.TabIndex = 26;
             this.bttnNextQ.Text = "Siguiente →";
             this.bttnNextQ.UseVisualStyleBackColor = true;
+            this.bttnNextQ.Click += new System.EventHandler(this.bttnNextQ_Click);
             // 
             // lblChoose
             // 
@@ -141,6 +143,7 @@
             this.bttnBack.TabStop = false;
             this.bttnBack.Text = "← Regresar";
             this.bttnBack.UseVisualStyleBackColor = true;
+            this.bttnBack.Click += new System.EventHandler(this.bttnBack_Click);
             // 
             // Form3
             // 
@@ -164,6 +167,7 @@
             this.MinimumSize = new System.Drawing.Size(1150, 680);
             this.Name = "Form3";
             this.Text = "TECHNION - Discrete Mathematics GUI";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgProblem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

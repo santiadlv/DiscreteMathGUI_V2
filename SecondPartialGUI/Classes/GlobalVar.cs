@@ -68,7 +68,17 @@ namespace SecondPartialGUI.Classes
 
         public static void GetProblems()
         {
+            P1_problems[0] = Properties.Resources.p1_prob1;
+            P1_problems[1] = Properties.Resources.p1_prob2;
+            P1_problems[2] = Properties.Resources.p1_prob3;
+            P1_problems[3] = Properties.Resources.p1_prob4;
+            P1_problems[4] = Properties.Resources.p1_prob5;
 
+            P2_problems[0] = Properties.Resources.p2_prob1;
+            P2_problems[1] = Properties.Resources.p2_prob2;
+            P2_problems[2] = Properties.Resources.p2_prob3;
+            P2_problems[3] = Properties.Resources.p2_prob4;
+            P2_problems[4] = Properties.Resources.p2_prob5;
         }
 
         public static void GetTopics()
@@ -83,8 +93,12 @@ namespace SecondPartialGUI.Classes
            }
            else
            {
-                //P2_topics[0] = "'Reglas de inferencia con cuantificadores'";
-           }
+                topics[0] = "'Conjuntos extensionales'";
+                topics[1] = "'Conjuntos intensionales'";
+                topics[2] = "'Subconjuntos'";
+                topics[3] = "'Operaciones entre conjuntos'";
+                topics[4] = "'Propiedades de conjuntos'";
+            }
         }
 
         public static void GetCorrectAnswers()
@@ -95,7 +109,11 @@ namespace SecondPartialGUI.Classes
             P1_correctAnswers_4[2] = true;
             P1_correctAnswers_5[1] = true;
 
-            //P2_correctAnswers_1[0] = true;
+            P2_correctAnswers_1[3] = true;
+            P2_correctAnswers_2[0] = true;
+            P2_correctAnswers_3[1] = true;
+            P2_correctAnswers_4[2] = true;
+            P2_correctAnswers_5[3] = true;
         }
 
         public static Image SetImages(int index)
@@ -162,7 +180,7 @@ namespace SecondPartialGUI.Classes
             else { return ". ¡No leíste la teoría! Hay mucho que estudiar.\n"; }
         }
 
-        public static string suggestTopics()
+        public static string SuggestTopics()
         {
             List<int> improve = new List<int>();
             string temp = "";

@@ -162,5 +162,35 @@
   <ItemGroup>
     <None Include="Resources\p2_img2.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1_prob4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1_prob5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1_prob1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1_prob2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1_prob3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2_prob3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2_prob4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2_prob5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2_prob1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2_prob2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

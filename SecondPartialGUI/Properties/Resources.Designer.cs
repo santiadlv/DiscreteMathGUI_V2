@@ -143,6 +143,56 @@ namespace SecondPartialGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap p1_prob1 {
+            get {
+                object obj = ResourceManager.GetObject("p1_prob1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p1_prob2 {
+            get {
+                object obj = ResourceManager.GetObject("p1_prob2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p1_prob3 {
+            get {
+                object obj = ResourceManager.GetObject("p1_prob3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p1_prob4 {
+            get {
+                object obj = ResourceManager.GetObject("p1_prob4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p1_prob5 {
+            get {
+                object obj = ResourceManager.GetObject("p1_prob5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap p2_cover {
             get {
                 object obj = ResourceManager.GetObject("p2_cover", resourceCulture);
@@ -256,6 +306,56 @@ namespace SecondPartialGUI.Properties {
         internal static System.Drawing.Bitmap p2_img9 {
             get {
                 object obj = ResourceManager.GetObject("p2_img9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p2_prob1 {
+            get {
+                object obj = ResourceManager.GetObject("p2_prob1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p2_prob2 {
+            get {
+                object obj = ResourceManager.GetObject("p2_prob2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p2_prob3 {
+            get {
+                object obj = ResourceManager.GetObject("p2_prob3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p2_prob4 {
+            get {
+                object obj = ResourceManager.GetObject("p2_prob4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p2_prob5 {
+            get {
+                object obj = ResourceManager.GetObject("p2_prob5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
