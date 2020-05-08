@@ -166,6 +166,7 @@
             this.MaximumSize = new System.Drawing.Size(1150, 680);
             this.MinimumSize = new System.Drawing.Size(1150, 680);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TECHNION - Discrete Mathematics GUI";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imgProblem)).EndInit();
