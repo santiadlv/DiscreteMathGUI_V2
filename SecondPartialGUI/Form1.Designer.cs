@@ -42,24 +42,26 @@
             // bttnExercises1
             // 
             this.bttnExercises1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnExercises1.Location = new System.Drawing.Point(650, 517);
+            this.bttnExercises1.Location = new System.Drawing.Point(621, 517);
             this.bttnExercises1.Name = "bttnExercises1";
-            this.bttnExercises1.Size = new System.Drawing.Size(200, 65);
+            this.bttnExercises1.Size = new System.Drawing.Size(230, 65);
             this.bttnExercises1.TabIndex = 10;
             this.bttnExercises1.TabStop = false;
             this.bttnExercises1.Text = "Contestar ejercicios\r\n(Primer Parcial)";
             this.bttnExercises1.UseVisualStyleBackColor = true;
+            this.bttnExercises1.Click += new System.EventHandler(this.bttnExercises1_Click);
             // 
             // bttnTheory1
             // 
             this.bttnTheory1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttnTheory1.Location = new System.Drawing.Point(650, 436);
+            this.bttnTheory1.Location = new System.Drawing.Point(621, 436);
             this.bttnTheory1.Name = "bttnTheory1";
-            this.bttnTheory1.Size = new System.Drawing.Size(200, 65);
+            this.bttnTheory1.Size = new System.Drawing.Size(230, 65);
             this.bttnTheory1.TabIndex = 9;
             this.bttnTheory1.TabStop = false;
             this.bttnTheory1.Text = "Revisar la teoría\r\n(Primer Parcial)";
             this.bttnTheory1.UseVisualStyleBackColor = true;
+            this.bttnTheory1.Click += new System.EventHandler(this.bttnTheory1_Click);
             // 
             // txtWelcome
             // 
@@ -103,22 +105,24 @@
             this.bttnTheory2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnTheory2.Location = new System.Drawing.Point(866, 436);
             this.bttnTheory2.Name = "bttnTheory2";
-            this.bttnTheory2.Size = new System.Drawing.Size(200, 65);
+            this.bttnTheory2.Size = new System.Drawing.Size(230, 65);
             this.bttnTheory2.TabIndex = 11;
             this.bttnTheory2.TabStop = false;
             this.bttnTheory2.Text = "Revisar la teoría\r\n(Segundo Parcial)";
             this.bttnTheory2.UseVisualStyleBackColor = true;
+            this.bttnTheory2.Click += new System.EventHandler(this.bttnTheory2_Click);
             // 
             // bttnExercises2
             // 
             this.bttnExercises2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnExercises2.Location = new System.Drawing.Point(866, 517);
             this.bttnExercises2.Name = "bttnExercises2";
-            this.bttnExercises2.Size = new System.Drawing.Size(200, 65);
+            this.bttnExercises2.Size = new System.Drawing.Size(230, 65);
             this.bttnExercises2.TabIndex = 12;
             this.bttnExercises2.TabStop = false;
             this.bttnExercises2.Text = "Contestar ejercicios\r\n(Segundo Parcial)";
             this.bttnExercises2.UseVisualStyleBackColor = true;
+            this.bttnExercises2.Click += new System.EventHandler(this.bttnExercises2_Click);
             // 
             // Form1
             // 
@@ -140,6 +144,8 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TECHNION - Discrete Mathematics GUI";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.Form1_Click);
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
